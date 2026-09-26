@@ -202,22 +202,26 @@
             <li>Achievements, experience points, streaks, and statistics;</li>
             <li>Battle results and matchmaking information;</li>
             <li>Profile name and profile image selected by you;</li>
-            <li>Your league and your experience points for the current week, if you are signed in and take part in the weekly league;</li>
-            <li>The country of your phone, shown as a flag in the weekly league table, unless you turn the flag off;</li>
+            <li>Your league, your place and your points for the current league season, if you are signed in and take part in the league;</li>
+            <li>The country of your phone, shown as a flag in the league tables, unless you turn the flag off;</li>
+            <li>The avatar frame, card and title you choose in the in-app shop, if any;</li>
             <li>Application preferences and notification settings.</li>
         </ul>
 
-        <h3>Weekly league</h3>
+        <h3>League</h3>
         <p>
-            When you are signed in and earn experience points in a week, Lingavio
-            places you in that week's league table: a group of up to 30 learners
-            of the same league. The learners in your table can see:
+            The league runs in seasons of one calendar month. When you are signed in
+            and earn experience points in a season, Lingavio places you in that
+            season's league tables: seventeen leagues of up to 30 learners each, and a
+            qualifying group for everyone else. Other learners using Lingavio can see
+            in these tables:
         </p>
         <ul>
             <li>Your profile name, with a surname shortened to its initial (for example, &ldquo;Anna K.&rdquo;);</li>
-            <li>The avatar emoji you chose (a profile photo is never shown in the table);</li>
+            <li>The avatar emoji you chose (a profile photo is never shown in the tables);</li>
             <li>Your country flag, unless you turn it off;</li>
-            <li>Your experience points for that week and your place in the table.</li>
+            <li>The avatar frame, card and title you chose in the shop, if any;</li>
+            <li>Your points for the season, your league and your place.</li>
         </ul>
         <p>
             The country flag is taken from the country code of your phone's SIM card
@@ -308,7 +312,7 @@
         <p>
             Firebase Realtime Database may be used to store or synchronize
             account information, learning progress, user profiles,
-            matchmaking data, battle status, weekly league tables, and related
+            matchmaking data, battle status, league tables, and related
             application data.
         </p>
 
@@ -531,8 +535,8 @@
         </ul>
 
         <p>
-            Other learners: in the weekly league, the learners in your table can see
-            the information listed under &ldquo;Weekly league&rdquo; above.
+            Other learners: in the league, other learners can see the information
+            listed under &ldquo;League&rdquo; above.
         </p>
 
         <p>
@@ -590,8 +594,10 @@
         </p>
 
         <p>
-            Only your current line in the weekly league is kept: when you join a new
-            week's table, your line from the previous week is removed.
+            Your line in a season's league table is kept for that season and the one
+            after it, which is needed to work out where you start the new season. When
+            you take part in a new season, your older lines are removed; all of them
+            are removed when you delete your account.
         </p>
 
         <p>
@@ -607,8 +613,7 @@
         <p>
             Lingavio provides an account-deletion option within the application.
             You may use this option to request deletion of your Lingavio account
-            and associated cloud data, including your line in the weekly league
-            table.
+            and associated cloud data, including your lines in the league tables.
         </p>
 
         <p>
