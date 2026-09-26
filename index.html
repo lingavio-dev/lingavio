@@ -153,7 +153,7 @@
 
 <main>
     <section class="card">
-        <span class="updated">Last updated: September 25, 2026</span>
+        <span class="updated">Last updated: September 26, 2026</span>
 
         <p>
             Lingavio is a language-learning application developed and operated
@@ -202,8 +202,30 @@
             <li>Achievements, experience points, streaks, and statistics;</li>
             <li>Battle results and matchmaking information;</li>
             <li>Profile name and profile image selected by you;</li>
+            <li>Your league and your experience points for the current week, if you are signed in and take part in the weekly league;</li>
+            <li>The country of your phone, shown as a flag in the weekly league table, unless you turn the flag off;</li>
             <li>Application preferences and notification settings.</li>
         </ul>
+
+        <h3>Weekly league</h3>
+        <p>
+            When you are signed in and earn experience points in a week, Lingavio
+            places you in that week's league table: a group of up to 30 learners
+            of the same league. The learners in your table can see:
+        </p>
+        <ul>
+            <li>Your profile name, with a surname shortened to its initial (for example, &ldquo;Anna K.&rdquo;);</li>
+            <li>The avatar emoji you chose (a profile photo is never shown in the table);</li>
+            <li>Your country flag, unless you turn it off;</li>
+            <li>Your experience points for that week and your place in the table.</li>
+        </ul>
+        <p>
+            The country flag is taken from the country code of your phone's SIM card
+            or mobile network, or, if neither is available, from your device's region
+            setting. Lingavio does not use GPS or any precise location for it. You can
+            turn the flag off at any time in <strong>Profile &rarr; Flag in the league</strong>,
+            and change your name in your profile.
+        </p>
 
         <h3>Voice and microphone data</h3>
         <p>
@@ -286,7 +308,8 @@
         <p>
             Firebase Realtime Database may be used to store or synchronize
             account information, learning progress, user profiles,
-            matchmaking data, battle status, and related application data.
+            matchmaking data, battle status, weekly league tables, and related
+            application data.
         </p>
 
         <p>
@@ -508,6 +531,11 @@
         </ul>
 
         <p>
+            Other learners: in the weekly league, the learners in your table can see
+            the information listed under &ldquo;Weekly league&rdquo; above.
+        </p>
+
+        <p>
             Service providers may process data under their own privacy terms
             and applicable data-protection obligations.
         </p>
@@ -562,6 +590,11 @@
         </p>
 
         <p>
+            Only your current line in the weekly league is kept: when you join a new
+            week's table, your line from the previous week is removed.
+        </p>
+
+        <p>
             Some information may remain temporarily in backups after deletion
             before being automatically removed through normal backup-rotation
             processes.
@@ -574,7 +607,8 @@
         <p>
             Lingavio provides an account-deletion option within the application.
             You may use this option to request deletion of your Lingavio account
-            and associated cloud data.
+            and associated cloud data, including your line in the weekly league
+            table.
         </p>
 
         <p>
